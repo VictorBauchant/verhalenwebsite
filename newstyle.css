@@ -1,0 +1,148 @@
+/* ---------------------------------------- */
+
+/* Gedownloade fonts van Eurostar: Pembroke (3), Aspect (2) */
+
+@font-face {
+    font-family: "PembrokeLight";
+    src: url("/fonts/pemw-lt.woff2");
+}
+
+@font-face {
+    font-family: "PembrokeRegular";
+    src: url("/fonts/pemw-rg.woff2");
+}
+
+@font-face {
+    font-family: "PembrokeMedium";
+    src: url("/fonts/pemw-md.woff2");
+}
+
+@font-face {
+    font-family: "AspectLight";
+    src: url("fonts/aspw-lt.woff2");
+}
+
+@font-face {
+    font-family: "AspectRegular";
+    src: url("fonts/aspw-rg.woff2");
+}
+
+/* ---------------------------------------- */
+
+/* Generiek */
+
+h1 {
+    font-family: "PembrokeRegular";
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    font-family: "PembrokeRegular";
+}
+
+a {
+    text-transform: uppercase;
+}
+
+/* Einde van generieke styling*/
+
+/* ---------------------------------------- */
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em 0em;
+    background-color: #06183d;
+
+}
+
+header a {
+    font-family: "PembrokeRegular";
+    font-size: 2em;
+    text-decoration: none;
+    color: #fbdd33;
+
+}
+
+header button {
+    margin-top: .6em;
+}
+
+#nav {
+    background: none;
+    background-image: url(images/hamburgermenu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    width: 2em;
+    height: 1.7em;
+
+    margin-left: 2em;
+
+    padding-bottom: 0em;
+}
+
+#search {
+    background: none;
+    background-image: url(images/magnifying.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    height: 2em;
+    width: 2em;
+
+    margin-right: 2em;
+
+    /*    padding: 0.8em 0em 0em;*/
+}
+
+/* ---------------------------------------- */
+
+/* Filter */
+
+fieldset {
+    display: none;
+}
+
+#filter {
+    height: 3em;
+    width: 6em;
+    margin: 2em 0em 0em 2em;
+}
+
+/* ---------------------------------------- */
+
+/* Sections */
+
+#title {
+    text-align: center;
+    border-bottom: 0px;
+    background-image: url(images/oxford-circus-320%20black%20overlay.jpg);
+    width: 100%;
+    padding: 2em 0em;
+}
+
+section {
+    border-bottom: 4px solid black;
+}
+
+section > section {
+    background-image: url();
+    display: flex;
+    overflow-x: scroll;
+}
+
+section article {
+    border: 1px solid blue;
+    padding: 1em 4em;
+    /*    text-indent: -666em;*/
+    /*    border-*/
+}
+
+/* ---------------------------------------- */
