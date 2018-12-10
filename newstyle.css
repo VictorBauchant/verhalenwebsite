@@ -32,13 +32,23 @@
 /* Generiek */
 
 h1 {
-    font-family: "PembrokeRegular";
+    font-family: "PembrokeLight";
+    font-size: 1.7em;
+    letter-spacing: .1em;
     text-transform: uppercase;
     color: white;
 }
 
 h2 {
     font-family: "PembrokeRegular";
+    font-size: 1em;
+    text-transform: uppercase;
+
+    width: 10em;
+    height: 1.3em;
+
+    color: white;
+    background-color: #06183d;
 }
 
 a {
@@ -111,9 +121,15 @@ fieldset {
 }
 
 #filter {
-    height: 3em;
-    width: 6em;
+    padding: .5em 3em;
     margin: 2em 0em 0em 2em;
+
+    background: #fbdd33;
+    border: none;
+    border-radius: .1em;
+    box-shadow: 2px 2px 0px;
+
+    color: black;
 }
 
 /* ---------------------------------------- */
@@ -124,12 +140,16 @@ fieldset {
     text-align: center;
     border-bottom: 0px;
     background-image: url(images/oxford-circus-320%20black%20overlay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     padding: 2em 0em;
+
+    border-bottom: 1px solid black;
 }
 
 section {
-    border-bottom: 4px solid black;
+    border-bottom: .5px solid black;
 }
 
 section > section {
